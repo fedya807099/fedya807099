@@ -1,0 +1,83 @@
+#c1{
+  height: 700px;
+  width: 700px;
+  border: 3px solid rgb(128, 0, 255);
+  background-image: url(https://prodigits.co.uk/thumbs/wallpapers/p2/anime/28/af250d2f12488475.jpg);//
+}
+
+.transparent-text {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: #000000;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+
+
+
+body{
+  background: rgb(51, 51, 51);
+  //background-image: -webkit-radial-gradient(cover, #FFF,#D1D1D1	);//
+  background-image: -moz-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: -o-radial-gradient(cover, #e8eaec, #a4a8ae);
+  background-image: radial-gradient(cover, #e8eaec, #a4a8ae)
+}
+
+html{
+  min-height:100%;
+}
+
+.Navigation{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.Navigation li 	{
+	height: 35px;
+	width: 110px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font:12px "Bonveno", "Century Gothic";
+	padding: 0;
+	margin: 0;
+	background-color: rgb(131, 131, 131);
+	border: 1px solid rgb(137, 21, 253);
+	border-radius: 3px;
+  margin-left:10px;
+}
+
+.Navigation a{							
+	padding:10px;
+	text-decoration: none; 
+	color:rgb(0, 0, 0);
+	text-shadow: 0 0px rgb(0, 0, 0);
+	display: block;
+}
+.Navigation li ul{
+	display: none;
+	height: auto;									
+	margin-left: -11px;
+	padding: 0;		
+}				
+
+.Navigation li:hover ul{
+	display: block;
+}
+
+.navbar li ul li {
+	background-color:#eee;
+  	border: 1px solid #ccc;
+} 
+
+.Navigation li:hover, a:hover {
+	 background: rgb(174, 93, 255);
+} 
+
